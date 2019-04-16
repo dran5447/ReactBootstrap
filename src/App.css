@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: svg-spin infinite 15s ease-in;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header {
+  background-color: #282c34;
+  width: 100%;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+Form {
+  padding: 30px;
+}
+
+label{
+  font-size: 70%;
+  text-align: left;
+}
+
+@keyframes svg-spin {
+  from {
+    margin-left: 0%;
+    width: 50%;
+    transform: rotate(0deg);
+  }
+  to {
+    margin-left: 50%;
+    width: 0%;
+    transform: rotate(360deg);
+  }
+}
