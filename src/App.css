@@ -8,15 +8,28 @@
   pointer-events: none;
 }
 
+body {
+  height: 100%;
+}
+
 .header {
+  padding: 5%;
   background-color: #282c34;
   width: 100%;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+nav {
+  padding: 10px 0px 0px 10px;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.register-greeting {
+  text-align: center;
 }
 
 Form {
@@ -26,6 +39,25 @@ Form {
 label{
   font-size: 70%;
   text-align: left;
+}
+
+.home-content {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position: relative;
+  margin: auto;
+  height: 400px;
+  width: 80%;
+}
+
+.home-content h2 {
+  padding-bottom: 20px;
+}
+
+.home-content span {
+  margin: auto;
+  text-align: center;
 }
 
 @keyframes svg-spin {
