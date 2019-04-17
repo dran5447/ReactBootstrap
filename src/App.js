@@ -3,12 +3,6 @@ import './App.css';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 
-import {
-  Route,
-  NavLink,
-  HashRouter
-} from "react-router-dom";
-
 import Register from './Register';
 import Todo from './Todo';
 import Home from './Home';
