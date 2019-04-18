@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import svg from './logo.svg';
-import './App.css';
+import svg from '../assets/logo.svg';
+import '../css/App.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
