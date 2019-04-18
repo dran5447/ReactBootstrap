@@ -8,7 +8,7 @@
   pointer-events: none;
 }
 
-body {
+.body {
   height: 100%;
 }
 
@@ -51,6 +51,20 @@ label{
   width: 80%;
 }
 
+#todo {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position: relative;
+  margin: auto;
+  width: 60%;
+}
+
+#todo span {
+  margin: auto;
+  text-align: center;
+}
+
 .home-content h2 {
   padding-bottom: 20px;
 }
@@ -58,6 +72,15 @@ label{
 .home-content span {
   margin: auto;
   text-align: center;
+}
+
+.text-strike {
+  text-decoration: line-through;
+}
+
+.text-strike.list-group-item:focus {
+  /* override bootstrap button focus text decoration if item is done */
+  text-decoration: line-through; 
 }
 
 @keyframes svg-spin {

@@ -32,7 +32,7 @@ class Register extends Component {
       <div>
           <img src={svg} className="App-logo" alt="animated svg" />
           
-          <p class="register-greeting">
+          <p className="register-greeting">
             Hello, {this.state.firstName}!
           </p>
 

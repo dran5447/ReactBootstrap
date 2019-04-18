@@ -15,7 +15,7 @@ class App extends Component {
         <header className="header">
           <h1>React App</h1>
         </header>
-        <body>
+        <div className="body">
           <Tabs defaultActiveKey="home" id="tab-content">
             <Tab eventKey="home" title="Home">
               <Home />
@@ -27,12 +27,12 @@ class App extends Component {
               <Register />
             </Tab>
           </Tabs>
-        </body>
+        </div>
         <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-          crossorigin="anonymous"/>
+          crossOrigin="anonymous"/>
       </div>
     );
   }
