@@ -6,6 +6,7 @@ import Tab from 'react-bootstrap/Tab';
 import Register from './Register';
 import Todo from './Todo';
 import Home from './Home';
+import BooksList from './BooksList';
 
 class App extends Component {
 
@@ -25,6 +26,9 @@ class App extends Component {
             </Tab>
             <Tab eventKey="register" title="Register">
               <Register />
+            </Tab>
+            <Tab eventKey="books" title="NYT Bestseller Books List">
+              <BooksList />
             </Tab>
           </Tabs>
         </div>
