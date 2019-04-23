@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../css/App.css';
 import * as THREE from 'three';
 
-class FlyingBooks extends Component {
+class Cube extends Component {
     constructor() {
         super();
         this.state = { items: []};
@@ -80,4 +80,4 @@ class FlyingBooks extends Component {
     }
 }
 
-export default FlyingBooks;
+export default Cube;

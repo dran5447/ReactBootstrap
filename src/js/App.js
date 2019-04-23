@@ -7,7 +7,7 @@ import Register from './Register';
 import Todo from './Todo';
 import Home from './Home';
 import BooksList from './BooksList';
-import FlyingBooks from './FlyingBooks';
+import Cube from './Cube';
 
 class App extends Component {
 
@@ -31,8 +31,8 @@ class App extends Component {
             <Tab eventKey="books" title="NYT Bestseller Books List">
               <BooksList />
             </Tab>
-            <Tab eventKey="flying-books" title="Flying Books">
-              <FlyingBooks />
+            <Tab eventKey="cube" title="Cube">
+              <Cube />
             </Tab>
           </Tabs>
         </div>
