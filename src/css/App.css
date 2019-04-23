@@ -119,6 +119,16 @@ label{
   grid-column: 2;
 }
 
+.threejs-host {
+  width: '400px';
+  height: '400px';
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position: relative;
+  margin: auto;
+}
+
 @keyframes svg-spin {
   from {
     margin-left: 0%;

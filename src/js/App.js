@@ -7,6 +7,7 @@ import Register from './Register';
 import Todo from './Todo';
 import Home from './Home';
 import BooksList from './BooksList';
+import FlyingBooks from './FlyingBooks';
 
 class App extends Component {
 
@@ -30,6 +31,9 @@ class App extends Component {
             <Tab eventKey="books" title="NYT Bestseller Books List">
               <BooksList />
             </Tab>
+            <Tab eventKey="flying-books" title="Flying Books">
+              <FlyingBooks />
+            </Tab>
           </Tabs>
         </div>
         <link
@@ -37,6 +41,7 @@ class App extends Component {
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
           crossOrigin="anonymous"/>
+        <script src="three.js"></script>
       </div>
     );
   }
